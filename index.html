@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E25 Internship Assignment</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
+  </head>
+  <body>
+    <main>
+        <!-- First section -->
+      <section class="success-stories">
+        <div class=" cotainner">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="left-icon-block">
+                <div class="icon-l1">
+                  <img src="/images/l1.png" alt="" class="icon-1" />
+                </div>
+                <div class="icon-l2">
+                  <img src="/images/l2.png" alt="" class="icon-2" />
+                </div>
+                <div class="icon-l3">
+                  <img src="/images/l3.png" alt="" class="icon-3" />
+                </div>
+                <div class="icon-l4">
+                  <img src="/images/l4.png" alt="" class="icon-4" />
+                </div>
+                <div class="icon-l5">
+                  <img src="/images/l5.png" alt="" class="icon-5" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-block">  
+                      <h2>Ideas Galore for Your Creative <br> Team</h2>
+                      <p >
+                        Leverage our curated tools or build custom <br />
+                        integrations
+                      </p>
+                    <button>
+                        
+                        Discover Success Stories  
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="right-icon-block">
+                    <div class="icon-r1"> <img src="/images/r1.png" alt="" class="icon-1_1" /></div>
+
+                    <div class="icon-r2"><img src="/images/r2.png" alt="" class="icon-2_2" /></div>
+                    <div class="icon-r3"><img src="/images/r3.png" alt="" class="icon-3_3" /></div>
+                    <div class="icon-r4"><img src="/images/r4.png" alt="" class="icon-4_4" /></div>
+                    <div class="icon-r5"><img src="/images/r5.png" alt="" class="icon-5_5" /></div>
+                    
+                  </div>
+            </div>
+          </div>
+        </div>        
+      </section>
+        <!-- second-section -->
+      <section class="free-guide">
+     <div class="cotainner ">
+        <div class="row ">
+            <div class="col-md-6">
+                <div class="left-block">
+                    <h2 >
+                        Al Automation:<br />
+                        Elevating Team Efficiency and Scalability
+                      </h2>
+                      <button >Get Your Free Guide  
+                        <i class="fa-solid fa-chevron-right"></i>
+                      </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-block">
+                        <div class="top-image"><img src="/images/phone.png" alt=""  /></div>
+                        <div class="back-image"><img src="/images/back-image.png" alt=""></div>
+                        <div class="grid-image"><img src="/images/grid-6.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+     </div>  
+      </section>
+      <!-- third-section -->
+      <section class="top-rank">
+        <div class="cotainner">
+            <div class="row">
+                <div class="col-md-6">
+                <div class="left-block">                 
+                    <div class="slider">
+                        <div ><img src="/images/slider.png" alt="Slide 1"></div>
+                        <div><img src="/images/slider.png" alt="Slide 2"></div>
+                        <div><img src="/images/slider.png" alt="Slide 3"></div>
+                    </div>
+                   
+                </div>
+                </div>
+                <div class="col-md-6">
+                <div class="right-block">
+                    <h1>Top-Ranked <br>
+                        Collaboration Tool</h1>
+                    <p>"As a developer using this platform, l'm impressed. Building workflows with the ready-made components made the product immediately valuable."</p>            
+                </div>
+                </div>
+            </div>
+        </div>
+      </section>
+        <!-- fourth-section -->
+      <section class="enger-to-begin">
+        <img src="/images/grid-6.png" alt="Top Left Image" class="top-Left-image"> 
+        <div class="cotainner ">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="left-block">
+                        <h2>Enger to Begin Your Journey?</h2>
+                        <button>Let's Connect</button>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <img src="/images/grid-6.png" alt="Top Right Image" class="top-right-image">  
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick Slider JS -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Slick Slider Initialization -->
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                dots: true,
+                arrows: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
+            });
+        });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
