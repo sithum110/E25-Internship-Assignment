@@ -395,9 +395,7 @@ $mobile: 480px;
 }
 
 
-      
-  
-    @media (max-width: $tablet) {
+ @media (max-width: $tablet) {
       .success-stories{
         margin-top: 100px;
 
@@ -412,15 +410,11 @@ $mobile: 480px;
         margin-top: 100px;
         text-align: center;
         .left-block{
-
             align-content: center;
             margin-left: 0;
-
             h2{
                 text-align: center;
-            }
-            
-           
+            }  
         }
         .right-block{
             display: none;
@@ -431,9 +425,7 @@ $mobile: 480px;
             .left-block{
                 display: flex;
                 .slider{
-                    left: 10%;
-                   
-                    
+                    left: 10%;    
                 }
             }
             .right-block{
