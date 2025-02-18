@@ -3,9 +3,11 @@ $white:#FFFFFF;
 $black:#000000;
 $purple:#6A0DAD;
 $sadow:rgba(0, 0, 0, 0.1);
+$tablet: 768px;
+$mobile: 480px;
 .success-stories{
-    padding: 200px ;
-    width: 100%;
+    margin-top: 200px;
+    // width: 100%;
     
 //    height: 100vh;
     .left-icon-block{
@@ -13,7 +15,7 @@ $sadow:rgba(0, 0, 0, 0.1);
         .icon-l1{
             position: absolute;
             top: 0;
-            right: 0%;
+            right: 10%;
             width: 116px;
             height: 117px;
             box-shadow: 0px 0px 20px $sadow;
@@ -29,7 +31,7 @@ $sadow:rgba(0, 0, 0, 0.1);
         .icon-l2{
             position: absolute;
             top: 120px;
-            right: 30%;
+            right: 40%;
             width: 116px;
             height: 117px;
             box-shadow: 0px 0px 20px $sadow;
@@ -46,7 +48,7 @@ $sadow:rgba(0, 0, 0, 0.1);
         .icon-l3{
             position: absolute;
             top: 250px;
-             right: 60%;
+             right: 70%;
             width: 116px;
             height: 117px;
             box-shadow: 0px 0px 20px $sadow;
@@ -63,7 +65,7 @@ $sadow:rgba(0, 0, 0, 0.1);
         .icon-l4{
             position: absolute;
             top: 250px;
-            right: 0%;
+            right: 10%;
             width: 116px;
             height: 117px;
             box-shadow: 0px 0px 20px $sadow;
@@ -80,7 +82,7 @@ $sadow:rgba(0, 0, 0, 0.1);
         .icon-l5{
             position: absolute;
             top: 380px;
-            right: 30%;
+            right: 40%;
             width: 116px;
             height: 117px;
             box-shadow: 0px 0px 20px $sadow;
@@ -98,7 +100,6 @@ $sadow:rgba(0, 0, 0, 0.1);
     }
     .text-block{
         text-align: center;
-        
         flex-direction: column;
         justify-content: center;
         height: 100%;
@@ -121,14 +122,12 @@ $sadow:rgba(0, 0, 0, 0.1);
             box-shadow: 3px 3px 10px $sadow;
             justify-content: center; 
             align-items: center;
-
             i{
                 margin-left: 5px;
             }
         }
         button:hover {
             background: #6B1065; 
-            color: #FF59FC; 
             transform: scale(1.05); 
             box-shadow: 0px 4px 10px $sadow; 
         }  
@@ -138,7 +137,7 @@ $sadow:rgba(0, 0, 0, 0.1);
         .icon-r1{
             position: absolute;
             top: 0;
-            left: 35%; 
+            left: 40%; 
             width: 116px;
             height: 117px;
             box-shadow: 0px 0px 20px $sadow;
@@ -154,7 +153,7 @@ $sadow:rgba(0, 0, 0, 0.1);
         .icon-r2{
             position: absolute;
             top: 120px;
-            left: 0%;  
+            left: 10%;  
             width: 116px;
             height: 117px;
             box-shadow: 0px 0px 20px $sadow;
@@ -162,7 +161,6 @@ $sadow:rgba(0, 0, 0, 0.1);
             display: flex;
             justify-content: center;
             align-items: center;
-
             img{
                 width: 46px;
                 height: 46px;
@@ -171,7 +169,7 @@ $sadow:rgba(0, 0, 0, 0.1);
         .icon-r3{
             position: absolute;
             top: 250px;
-            left: 35%;  
+            left: 40%;  
             width: 116px;
             height: 117px;
             box-shadow: 0px 0px 20px $sadow;
@@ -188,7 +186,7 @@ $sadow:rgba(0, 0, 0, 0.1);
         .icon-r4{
             position: absolute;
             top: 250px;
-            left: 70%;
+            left: 75%;
             width: 116px;
             height: 117px;
             box-shadow: 0px 0px 20px $sadow;
@@ -205,7 +203,7 @@ $sadow:rgba(0, 0, 0, 0.1);
         .icon-r5{
             position: absolute;
             top: 380px;
-            left: 70%;
+            left: 75%;
             width: 116px;
             height: 117px;
             box-shadow: 0px 0px 20px $sadow;
@@ -234,7 +232,6 @@ $sadow:rgba(0, 0, 0, 0.1);
     background-repeat: no-repeat; 
    max-height: fit-content;
     .left-block{
-       
        position: relative;
        font-style: normal;
        margin-left: 80px;
@@ -263,7 +260,6 @@ $sadow:rgba(0, 0, 0, 0.1);
        }
        button:hover {
         background: #6B1065; 
-        color: #FF59FC; 
         transform: scale(1.05); 
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
     }
@@ -315,7 +311,7 @@ $sadow:rgba(0, 0, 0, 0.1);
 .top-rank {
     background:url(images/mask-group-1.png), linear-gradient(to top, #FFFFFF , #A4B0DF );
     background-repeat: no-repeat;
-    background-size: 600px cover;
+    // background-size: 600px cover;
     background-position: TOP left ;
     padding:200px 0 ;
     max-height: auto;
@@ -324,6 +320,7 @@ $sadow:rgba(0, 0, 0, 0.1);
     width: 100%;
     align-items: center;
     align-content: center;
+    // background-size: contain;
     
     /* Left Side - Slick Slider */
     .left-block {
@@ -412,8 +409,7 @@ $sadow:rgba(0, 0, 0, 0.1);
 
        }
        button:hover {
-        background: #6B1065; 
-        color: #FF59FC; 
+        background: #6B1065;  
         transform: scale(1.05);
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     }       
@@ -432,14 +428,67 @@ $sadow:rgba(0, 0, 0, 0.1);
     width: 200px; 
     height: 500px;  
 }
-.success-stories {
-    .left-icon-block,
-    .right-icon-block {
+
+
       
   
-      @media (max-width: 768px) {
-        display: none;
+    @media (max-width: $tablet) {
+      .success-stories{
+        margin-top: 100px;
+
+        .left-icon-block{
+            display: none;
+        }
+        .right-icon-block{
+            display: none;
+        }
       }
+      .free-guide{
+        margin-top: 100px;
+        text-align: center;
+        .left-block{
+
+            align-content: center;
+            margin-left: 0;
+
+            h2{
+                text-align: center;
+            }
+            
+           
+        }
+        .right-block{
+            display: none;
+        }
+      }
+        .top-rank{
+            padding: 100px 0;
+            .left-block{
+                display: flex;
+                .slider{
+                    left: 10%;
+                   
+                    
+                }
+            }
+            .right-block{
+                text-align: center;
+                h1{
+                    font-size: 40px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+        .enger-to-begin{
+            padding: 100px 0;
+            .left-block{
+              h2{
+                text-align: center;
+              }
+            }
+        }
     }
-  }
+  
   
