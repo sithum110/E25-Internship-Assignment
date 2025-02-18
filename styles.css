@@ -116,10 +116,10 @@
   margin-left: 5px;
 }
 .success-stories .text-block button:hover {
-  background: #6B1065; /* Darker shade on hover */
-  color: #FF59FC; /* Text color change */
-  transform: scale(1.05); /* Slightly enlarges button */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  background: #6B1065;
+  color: #FF59FC;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .success-stories .right-icon-block {
   position: relative;
@@ -241,10 +241,10 @@
   margin-left: 5px;
 }
 .free-guide .left-block button:hover {
-  background: #6B1065; /* Darker shade on hover */
-  color: #FF59FC; /* Text color change */
-  transform: scale(1.05); /* Slightly enlarges button */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  background: #6B1065;
+  color: #FF59FC;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 .free-guide .right-block {
   position: relative;
@@ -370,10 +370,10 @@
   margin-top: 40px;
 }
 .enger-to-begin .left-block button:hover {
-  background: #6B1065; /* Darker shade on hover */
-  color: #FF59FC; /* Text color change */
-  transform: scale(1.05); /* Slightly enlarges button */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  background: #6B1065;
+  color: #FF59FC;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .top-right-image {
