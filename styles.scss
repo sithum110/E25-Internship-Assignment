@@ -2,14 +2,13 @@ $pink:#FF3366;
 $white:#FFFFFF;
 $black:#000000;
 $purple:#6A0DAD;
+$hovercolor:#6B1065;
+$sec2button:#A86DB7;
 $sadow:rgba(0, 0, 0, 0.1);
 $tablet: 768px;
 $mobile: 480px;
 .success-stories{
     margin-top: 200px;
-    // width: 100%;
-    
-//    height: 100vh;
     .left-icon-block{
         position: relative;
         .icon-l1{
@@ -39,7 +38,6 @@ $mobile: 480px;
             display: flex;
             justify-content: center;
             align-items: center;
-
             img{
                 width: 50px;
                 height: 50px;
@@ -56,7 +54,6 @@ $mobile: 480px;
             display: flex;
             justify-content: center;
             align-items: center;
-
             img{
                 width: 46px;
                 height: 46px;
@@ -73,7 +70,6 @@ $mobile: 480px;
             display: flex;
             justify-content: center;
             align-items: center;
-
             img{
                 width: 58px;
                 height: 37px;
@@ -90,7 +86,6 @@ $mobile: 480px;
             display: flex;
             justify-content: center;
             align-items: center;
-
             img{
                 width: 48px;
                 height: 48px;
@@ -127,7 +122,7 @@ $mobile: 480px;
             }
         }
         button:hover {
-            background: #6B1065; 
+            background: $hovercolor; 
             transform: scale(1.05); 
             box-shadow: 0px 4px 10px $sadow; 
         }  
@@ -177,7 +172,6 @@ $mobile: 480px;
             display: flex;
             justify-content: center;
             align-items: center;
-
             img{
                 width: 62px;
                 height: 62px;
@@ -194,7 +188,6 @@ $mobile: 480px;
             display: flex;
             justify-content: center;
             align-items: center;
-
             img{
                 width: 65px;
                 height: 38px;
@@ -211,20 +204,17 @@ $mobile: 480px;
             display: flex;
             justify-content: center;
             align-items: center;
-
             img{
                 width: 47px;
                 height: 52px;
             }
-        }
-       
+        } 
     }
 }
-
 //free guide section
 
 .free-guide{
-    margin-top: 200px ;
+    margin-top: 300px ;
     min-height: 523px;
     width: 100%;
     background:url('images/bc2.png'),linear-gradient(to left, #6B1065,#BD39B9) ;
@@ -247,33 +237,27 @@ $mobile: 480px;
        button{
         width: 210px;
         height: 45px;
-        background:#A86DB7;
+        background:$sec2button;
         color: $white;
         border-style: none;
         border-radius: 5px;
         margin-top: 20px;
-
         i{
             margin-left: 5px;
         }
-
        }
        button:hover {
-        background: #6B1065; 
+        background: $hovercolor; 
         transform: scale(1.05); 
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    }      
     }
-         
-    }
-
     .right-block{
         position: relative;
         overflow: hidden;
         right: 0%;
         display: flex;
-        
         .top-image{
-           
             padding-top: 22%;
             padding-left: 70px;
             z-index: 3;
@@ -296,7 +280,6 @@ $mobile: 480px;
             img{
                 width: 350px;
                 height: 400px;
-              
             }
         }
         .grid-image{
@@ -308,10 +291,10 @@ $mobile: 480px;
     }
 }
 //top rank section
+
 .top-rank {
     background:url(images/mask-group-1.png), linear-gradient(to top, #FFFFFF , #A4B0DF );
     background-repeat: no-repeat;
-    // background-size: 600px cover;
     background-position: TOP left ;
     padding:200px 0 ;
     max-height: auto;
@@ -320,54 +303,37 @@ $mobile: 480px;
     width: 100%;
     align-items: center;
     align-content: center;
-    // background-size: contain;
-    
-    /* Left Side - Slick Slider */
     .left-block {
-        position: relative;
-        // justify-content: center;
-        // left: 20%;
-        
+        position: relative; 
         .slider {
-         
             align-items:center ;
             justify-content: center;
-            // left: 10%;
             max-width: 400px;
             width: 340px;
-            img {
-               
-                
+            img {  
                 width: 340px;
                 height: 340px;
                 object-fit: cover;
                 border-radius: 10px;
-                border: 10px solid #dde9fd;
+                border: 10px solid $white;
             }
         }
     }
     .right-block {
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: left;
-    //    padding-top: 150px;
-
         h1 {
             font-size: 60px;
             font-weight: bold;
             margin-bottom: 10px;
         }
-
         p {
             font-size: 18px;
             line-height: 1.6;
-            max-width: 580px;
         }
     }
 }
-
 //start enger to begin section
 
 .enger-to-begin{
@@ -378,7 +344,6 @@ $mobile: 480px;
     background:url('images/last-image.png'),linear-gradient(to left, #1f0385,#030225) ;
     background-size: cover;
     background-repeat: no-repeat;
-  
     .left-block{ 
        position: relative;
        font-style: normal;
@@ -409,7 +374,7 @@ $mobile: 480px;
 
        }
        button:hover {
-        background: #6B1065;  
+        background: $hovercolor;  
         transform: scale(1.05);
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     }       

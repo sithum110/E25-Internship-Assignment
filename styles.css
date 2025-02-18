@@ -203,7 +203,7 @@
 }
 
 .free-guide {
-  margin-top: 200px;
+  margin-top: 300px;
   min-height: 523px;
   width: 100%;
   background: url("images/bc2.png"), linear-gradient(to left, #6B1065, #BD39B9);
@@ -291,7 +291,6 @@
   width: 100%;
   align-items: center;
   align-content: center;
-  /* Left Side - Slick Slider */
 }
 .top-rank .left-block {
   position: relative;
@@ -307,14 +306,12 @@
   height: 340px;
   object-fit: cover;
   border-radius: 10px;
-  border: 10px solid #dde9fd;
+  border: 10px solid #FFFFFF;
 }
 .top-rank .right-block {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: left;
 }
 .top-rank .right-block h1 {
   font-size: 60px;
@@ -324,7 +321,6 @@
 .top-rank .right-block p {
   font-size: 18px;
   line-height: 1.6;
-  max-width: 580px;
 }
 
 .enger-to-begin {
