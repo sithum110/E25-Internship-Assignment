@@ -102,8 +102,8 @@
   align-items: center;
   width: 248px;
   height: 45px;
-  background-color: #FF3366;
-  color: #FFFFFF;
+  background-color: #ff3366;
+  color: #ffffff;
   border-radius: 5px;
   border-style: none;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
@@ -114,7 +114,7 @@
   margin-left: 5px;
 }
 .success-stories .text-block button:hover {
-  background: #6B1065;
+  background: #6b1065;
   transform: scale(1.05);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -206,7 +206,7 @@
   margin-top: 300px;
   min-height: 523px;
   width: 100%;
-  background: url("images/bc2.png"), linear-gradient(to left, #6B1065, #BD39B9);
+  background: url("images/bc2.png"), linear-gradient(to left, #6b1065, #bd39b9);
   background-size: cover;
   background-repeat: no-repeat;
   max-height: fit-content;
@@ -221,15 +221,15 @@
 .free-guide .left-block h2 {
   margin-top: 50px;
   font-size: 50px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 500;
   margin-bottom: 20px;
 }
 .free-guide .left-block button {
   width: 210px;
   height: 45px;
-  background: #A86DB7;
-  color: #FFFFFF;
+  background: #a86db7;
+  color: #ffffff;
   border-style: none;
   border-radius: 5px;
   margin-top: 20px;
@@ -238,7 +238,7 @@
   margin-left: 5px;
 }
 .free-guide .left-block button:hover {
-  background: #6B1065;
+  background: #6b1065;
   transform: scale(1.05);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -281,7 +281,7 @@
 }
 
 .top-rank {
-  background: url(images/mask-group-1.png), linear-gradient(to top, #FFFFFF, #A4B0DF);
+  background: url(images/mask-group-1.png), linear-gradient(to top, #ffffff, #a4b0df);
   background-repeat: no-repeat;
   background-position: TOP left;
   padding: 200px 0;
@@ -306,7 +306,7 @@
   height: 340px;
   object-fit: cover;
   border-radius: 10px;
-  border: 10px solid #FFFFFF;
+  border: 10px solid #ffffff;
 }
 .top-rank .right-block {
   flex-direction: column;
@@ -346,7 +346,7 @@
 }
 .enger-to-begin .left-block h2 {
   font-size: 70px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   align-items: center;
   max-width: 500px;
@@ -354,14 +354,14 @@
 .enger-to-begin .left-block button {
   width: 144px;
   height: 45px;
-  background: #FF3366;
-  color: #FFFFFF;
+  background: #ff3366;
+  color: #ffffff;
   border-style: none;
   border-radius: 5px;
   margin-top: 40px;
 }
 .enger-to-begin .left-block button:hover {
-  background: #6B1065;
+  background: #6b1065;
   transform: scale(1.05);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
