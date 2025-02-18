@@ -4,10 +4,10 @@ $black:#000000;
 $purple:#6A0DAD;
 $sadow:rgba(0, 0, 0, 0.1);
 .success-stories{
-    padding: 200px 200px;
+    padding: 200px ;
     width: 100%;
     
-   height: 100vh;
+//    height: 100vh;
     .left-icon-block{
         position: relative;
         .icon-l1{
@@ -226,7 +226,7 @@ $sadow:rgba(0, 0, 0, 0.1);
 //free guide section
 
 .free-guide{
-    padding: 0;
+    margin-top: 200px ;
     min-height: 523px;
     width: 100%;
     background:url('images/bc2.png'),linear-gradient(to left, #6B1065,#BD39B9) ;
@@ -322,17 +322,25 @@ $sadow:rgba(0, 0, 0, 0.1);
     min-height: 528px;
     color: $black;
     width: 100%;
+    align-items: center;
+    align-content: center;
     
     /* Left Side - Slick Slider */
     .left-block {
         position: relative;
-        justify-content: center;
-        padding-top: 50px;
+        // justify-content: center;
+        left: 20%;
+        
         .slider {
+         
+            align-items:center ;
+            justify-content: center;
             left: 10%;
             max-width: 400px;
             width: 340px;
             img {
+               
+                
                 width: 340px;
                 height: 340px;
                 object-fit: cover;
@@ -345,9 +353,9 @@ $sadow:rgba(0, 0, 0, 0.1);
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         text-align: left;
-       padding-top: 150px;
+    //    padding-top: 150px;
 
         h1 {
             font-size: 60px;
