@@ -299,12 +299,10 @@
 }
 .top-rank .left-block {
   position: relative;
-  left: 20%;
 }
 .top-rank .left-block .slider {
   align-items: center;
   justify-content: center;
-  left: 10%;
   max-width: 400px;
   width: 340px;
 }
