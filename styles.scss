@@ -393,6 +393,7 @@ $mobile: 480px;
   width: 200px;
   height: 500px;
 }
+//responsive section
 
 @media (max-width: $tablet) {
   .success-stories {
@@ -423,9 +424,9 @@ $mobile: 480px;
     padding: 100px 0;
     .left-block {
       display: flex;
-      .slider {
-        left: 10%;
-      }
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     }
     .right-block {
       text-align: center;

@@ -410,9 +410,9 @@
   }
   .top-rank .left-block {
     display: flex;
-  }
-  .top-rank .left-block .slider {
-    left: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .top-rank .right-block {
     text-align: center;
