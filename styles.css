@@ -106,7 +106,7 @@
   color: #ffffff;
   border-radius: 5px;
   border-style: none;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   justify-content: center;
   align-items: center;
 }
@@ -116,7 +116,7 @@
 .success-stories .text-block button:hover {
   background: #6b1065;
   transform: scale(1.05);
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 .success-stories .right-icon-block {
   position: relative;
@@ -266,7 +266,7 @@
   z-index: 2;
   border-width: 15px 10px 25px 10px;
   border-style: solid;
-  border-color: #000000 #000000 #000000 #000000;
+  border-color: #000000;
   border-radius: 10px;
 }
 .free-guide .right-block .back-image img {
@@ -306,7 +306,7 @@
   height: 340px;
   object-fit: cover;
   border-radius: 10px;
-  border: 10px solid #ffffff;
+  border: 10px solid #b1cef6;
 }
 .top-rank .right-block {
   flex-direction: column;
